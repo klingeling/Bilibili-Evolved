@@ -98,6 +98,10 @@ const sideCards: { [id: number]: SideCardType } = {
     className: 'compose',
     displayName: '发布动态',
   },
+  7: {
+    className: 'search',
+    displayName: 'bilibili热搜',
+  },
 }
 if (getComponentSettings('extendFeedsLive').enabled) {
   delete sideCards[3]
