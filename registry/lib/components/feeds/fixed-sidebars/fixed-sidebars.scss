@@ -59,7 +59,7 @@
   }
 }
 .bili-dyn-home--member {
-  --center-width: 632px;
+  --center-width: 1000px;
   --gap: 8px;
   --fixed-offset: calc(var(--center-width) + (100% - var(--center-width)) / 2 + var(--gap));
   section.sticky {
